@@ -35,6 +35,11 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+  }
+}
 .airport {
   display: flex;
   align-items: center;
@@ -50,9 +55,23 @@ header {
   font-size: 3.8rem;
   margin-bottom: 4%;
   margin-top: 5%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .main-content h1 {
+    font-size: 2rem;
+    margin: 0 0 4% 0;
+  }
 }
 .main-content p {
   font-size: 2.7rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .main-content p {
+    font-size: 1.5rem;
+    margin: 0 0 4% 0;
+  }
 }
 .main-content button {
   width: 100%;
@@ -63,20 +82,46 @@ header {
   width: 80%;
   margin: 3% auto;
 }
+@media (max-width: 500px) {
+  .mid {
+    width: 100%;
+  }
+}
 .aboutpics {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 3% auto;
 }
+@media (max-width: 500px) {
+  .aboutpics {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .aboutpics .cell {
   width: 33%;
+}
+@media (max-width: 500px) {
+  .aboutpics .cell {
+    width: 100%;
+  }
 }
 .aboutpics .luggage {
   width: 33%;
 }
+@media (max-width: 500px) {
+  .aboutpics .luggage {
+    width: 100%;
+  }
+}
 .aboutpics .noworries {
   width: 33%;
+}
+@media (max-width: 500px) {
+  .aboutpics .noworries {
+    width: 100%;
+  }
 }
 .aboutpics h2 {
   margin-top: 1% ;
@@ -87,6 +132,11 @@ header {
   margin-top: 1%;
   font-size: 1.5rem;
   padding: 1%;
+}
+@media (max-width: 500px) {
+  .aboutpics p {
+    margin-bottom: 4%;
+  }
 }
 .topnav {
   display: flex;
@@ -105,6 +155,13 @@ header {
 .heading h1 {
   font-size: 6rem;
   margin: 5% auto 15% auto;
+}
+@media (max-width: 500px) {
+  .heading h1 {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+  }
 }
 .about {
   display: flex;
@@ -126,10 +183,20 @@ header {
   margin: 2% 0;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .about h2 {
+    font-size: 1.5rem;
+  }
+}
 .about h3 {
   font-size: 2rem;
   margin: 2% 0;
   padding: 1%;
+}
+@media (max-width: 500px) {
+  .about h3 {
+    font-size: 1rem;
+  }
 }
 .bottom-about {
   display: flex;
@@ -151,8 +218,18 @@ header {
   margin: 2% 0;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .bottom-about h2 {
+    font-size: 1.5rem;
+  }
+}
 .bottom-about h3 {
   font-size: 2rem;
   margin: 2% 0;
   padding: 1%;
+}
+@media (max-width: 500px) {
+  .bottom-about h3 {
+    font-size: 1rem;
+  }
 }
