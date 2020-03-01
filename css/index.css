@@ -3,10 +3,6 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 2px solid red;
-}
-body {
-  line-height: 2;
 }
 h1,
 h2,
@@ -14,12 +10,144 @@ h3 {
   font-family: 'Roboto Mono';
 }
 p {
-  font-family: 'Cutive Mono';
+  font-family: 'Ubuntu Mono';
+}
+html,
+body {
+  font-size: 62.5%;
+}
+.topnav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% auto;
+  width: 80%;
+}
+.topnav a {
+  font-size: 2.5rem;
+  font: grey;
 }
 header {
   background-image: url("../images/hanson-lu-qNHbXkO3Xbc-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.main-content {
+  width: 30%;
+  background-color: white;
+  margin: 5% 5% 0 5%;
+  padding: 1%;
+  border: solid grey 2px;
+}
+.main-content h1 {
+  font-size: 3.8rem;
+  margin-bottom: 4%;
+  margin-top: 15%;
+}
+.main-content p {
+  font-size: 2.7rem;
+}
+.main-content button {
+  width: 100%;
+  padding: 2%;
+  margin: 2% auto 0 auto;
+}
+.mid {
+  width: 80%;
+  margin: 3% auto;
+}
+.aboutpics {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 3% auto;
+}
+.aboutpics .cell {
+  width: 33%;
+}
+.aboutpics .luggage {
+  width: 33%;
+}
+.aboutpics .noworries {
+  width: 33%;
+}
+.aboutpics h2 {
+  margin-top: 1% ;
+  font-size: 2.5rem;
+  padding: 1%;
+}
+.aboutpics p {
+  margin-top: 1%;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+.topnav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% auto;
+  width: 80%;
+}
+.topnav a {
+  font-size: 2.5rem;
+}
+.heading {
+  width: 40%;
+  margin: 0 auto;
+}
+.heading h1 {
+  font-size: 6rem;
+  margin: 5% auto 15% auto;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5% auto ;
+}
+.about .top {
+  width: 32%;
+}
+.about .top12 {
+  width: 32%;
+}
+.about .top13 {
+  width: 32%;
+}
+.about h2 {
+  font-size: 2.5rem;
+  margin: 2% 0;
+  padding: 1%;
+}
+.about h3 {
+  font-size: 2rem;
+  margin: 2% 0;
+  padding: 1%;
+}
+.bottom-about {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto 5% auto;
+}
+.bottom-about .bottom {
+  width: 32%;
+}
+.bottom-about .bottom2 {
+  width: 32%;
+}
+.bottom-about .bottom3 {
+  width: 32%;
+}
+.bottom-about h2 {
+  font-size: 2.5rem;
+  margin: 2% 0;
+  padding: 1%;
+}
+.bottom-about h3 {
+  font-size: 2rem;
+  margin: 2% 0;
+  padding: 1%;
 }
