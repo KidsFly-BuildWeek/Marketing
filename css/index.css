@@ -35,6 +35,10 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+.airport {
+  display: flex;
+  align-items: center;
+}
 .main-content {
   width: 30%;
   background-color: white;
