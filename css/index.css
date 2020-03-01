@@ -17,8 +17,8 @@ body {
   font-size: 62.5%;
 }
 .topnav {
-  display: flex;
   justify-content: space-around;
+  display: flex;
   margin: 2% auto;
   width: 80%;
 }
@@ -88,8 +88,8 @@ header {
   }
 }
 .aboutpics {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   width: 80%;
   margin: 3% auto;
 }
@@ -139,8 +139,8 @@ header {
   }
 }
 .topnav {
-  display: flex;
   justify-content: space-around;
+  display: flex;
   margin: 2% auto;
   width: 80%;
 }
@@ -164,8 +164,8 @@ header {
   }
 }
 .about {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   width: 80%;
   margin: 5% auto ;
 }
@@ -199,8 +199,8 @@ header {
   }
 }
 .bottom-about {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   width: 80%;
   margin: 0 auto 5% auto;
 }

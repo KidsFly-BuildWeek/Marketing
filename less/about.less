@@ -6,7 +6,7 @@
         font-size: 6rem;
         margin: 5% auto 15% auto;
 
-        @media(max-width: 500px){
+        @media @phone{
             font-size: 3rem;
             width:80%;
             text-align: center;
@@ -15,9 +15,8 @@
     }
 }
 
-.about{ 
-    display: flex;
-    justify-content: space-between;
+.about{
+    .space(space-between, flex);
     width: 80%;
     margin: 5% auto ;
 
@@ -38,7 +37,7 @@
         margin: 2% 0;
         padding: 1%;
 
-        @media(max-width: 500px){
+        @media @phone{
             font-size: 1.5rem;
         }
     }
@@ -48,15 +47,14 @@
         margin: 2% 0;
         padding: 1%;
 
-        @media(max-width: 500px){
+        @media @phone{
             font-size: 1rem;
         }
     }
 }
 
 .bottom-about{ 
-    display: flex;
-    justify-content: space-between;
+    .space(space-between, flex);
     width: 80%;
     margin: 0 auto 5% auto;
 
@@ -77,7 +75,7 @@
         margin: 2% 0;
         padding: 1%;
 
-        @media(max-width: 500px){
+        @media @phone{
             font-size: 1.5rem;
         }
     }
@@ -87,7 +85,7 @@
         margin: 2% 0;
         padding: 1%;
 
-        @media(max-width: 500px){
+        @media @phone{
             font-size: 1rem;
         }
     }
