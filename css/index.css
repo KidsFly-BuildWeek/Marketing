@@ -24,7 +24,10 @@ body {
 }
 .topnav a {
   font-size: 2.5rem;
-  font: black;
+  color: black;
+}
+a:hover {
+  color: teal;
 }
 header {
   background-image: url("../images/hanson-lu-qNHbXkO3Xbc-unsplash.jpg");
