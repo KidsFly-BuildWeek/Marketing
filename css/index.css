@@ -45,7 +45,7 @@ a:hover {
 #mainnav .logo .logo2 {
   width: 60%;
   margin: 0 auto;
-  background: #7CD79C;
+  background: #77B3C9;
 }
 .title {
   width: 80%;
@@ -79,7 +79,6 @@ header {
   background-color: #77B3C9;
   margin: 5% 5% 0 5%;
   padding: 1%;
-  border: solid grey 2px;
 }
 .main-content h1 {
   font-size: 3.8rem;
