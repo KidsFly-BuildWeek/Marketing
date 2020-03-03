@@ -11,7 +11,7 @@ h3 {
   color: #7CD79C;
 }
 p {
-  font-family: 'Ubuntu Mono';
+  font-family: 'Open Sans', sans-serif;
   color: #7CD79C;
 }
 html,
@@ -93,6 +93,11 @@ header {
     margin: 0 0 4% 0;
   }
 }
+@media (max-width: 800px) {
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+}
 .main-content p {
   font-size: 2.7rem;
   text-align: center;
@@ -102,6 +107,11 @@ header {
   .main-content p {
     font-size: 1.5rem;
     margin: 0 0 4% 0;
+  }
+}
+@media (max-width: 800px) {
+  .main-content p {
+    font-size: 1.5rem;
   }
 }
 .main-content button {
@@ -133,12 +143,25 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .aboutpics {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
 .aboutpics .cell {
   width: 33%;
 }
 @media (max-width: 500px) {
   .aboutpics .cell {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .aboutpics .cell {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 .aboutpics .luggage {
@@ -149,12 +172,24 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .aboutpics .luggage {
+    width: 80%;
+    margin: 4% auto;
+  }
+}
 .aboutpics .noworries {
   width: 33%;
 }
 @media (max-width: 500px) {
   .aboutpics .noworries {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .aboutpics .noworries {
+    width: 80%;
+    margin: 4% auto;
   }
 }
 .aboutpics h2 {
@@ -170,6 +205,11 @@ header {
   color: #AFEB60;
 }
 @media (max-width: 500px) {
+  .aboutpics p {
+    margin-bottom: 4%;
+  }
+}
+@media (max-width: 800px) {
   .aboutpics p {
     margin-bottom: 4%;
   }
@@ -201,6 +241,11 @@ header {
   .heading h1 {
     font-size: 3rem;
     width: 80%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .heading h1 {
     text-align: center;
   }
 }
