@@ -121,7 +121,8 @@ header {
   color: #77B3C9;
   background: #AFEB60;
   font-size: 1.2rem;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  margin-top: 10%;
 }
 @media (max-width: 500px) {
   .main-content button {
@@ -131,6 +132,7 @@ header {
 @media (max-width: 800px) {
   .main-content button {
     margin-bottom: 10%;
+    margin-top: 5%;
   }
 }
 .mid {
