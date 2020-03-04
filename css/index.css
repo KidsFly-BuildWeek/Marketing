@@ -89,13 +89,13 @@ header {
 }
 @media (max-width: 500px) {
   .main-content h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0 0 4% 0;
   }
 }
 @media (max-width: 800px) {
   .main-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .main-content p {
@@ -111,7 +111,7 @@ header {
 }
 @media (max-width: 800px) {
   .main-content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .main-content button {
@@ -120,7 +120,17 @@ header {
   margin: 4% auto 0 auto;
   color: #77B3C9;
   background: #AFEB60;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  .main-content button {
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 800px) {
+  .main-content button {
+    margin-bottom: 10%;
+  }
 }
 .mid {
   width: 80%;
@@ -146,8 +156,8 @@ header {
 @media (max-width: 800px) {
   .aboutpics {
     flex-direction: column;
+    align-items: center;
     width: 100%;
-    justify-content: center;
   }
 }
 .aboutpics .cell {
@@ -161,7 +171,6 @@ header {
 @media (max-width: 800px) {
   .aboutpics .cell {
     width: 80%;
-    margin: 0 auto;
   }
 }
 .aboutpics .luggage {
@@ -175,7 +184,6 @@ header {
 @media (max-width: 800px) {
   .aboutpics .luggage {
     width: 80%;
-    margin: 4% auto;
   }
 }
 .aboutpics .noworries {
@@ -183,13 +191,12 @@ header {
 }
 @media (max-width: 500px) {
   .aboutpics .noworries {
-    width: 100%;
+    width: 80%;
   }
 }
 @media (max-width: 800px) {
   .aboutpics .noworries {
     width: 80%;
-    margin: 4% auto;
   }
 }
 .aboutpics h2 {
@@ -197,6 +204,11 @@ header {
   font-size: 2.5rem;
   padding: 1%;
   color: #AFEB60;
+}
+@media (max-width: 800px) {
+  .aboutpics h2 {
+    font-size: 2.5rem;
+  }
 }
 .aboutpics p {
   margin-top: 1%;
@@ -211,6 +223,7 @@ header {
 }
 @media (max-width: 800px) {
   .aboutpics p {
+    font-size: 2rem;
     margin-bottom: 4%;
   }
 }
