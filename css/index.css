@@ -67,7 +67,7 @@ header {
 }
 @media (max-width: 500px) {
   header {
-    width: 100%;
+    width: 80%;
   }
 }
 .airport {
@@ -121,6 +121,7 @@ header {
   color: #77B3C9;
   background: #AFEB60;
   font-size: 1.2rem;
+  margin-bottom: 10%;
 }
 @media (max-width: 500px) {
   .main-content button {
@@ -138,7 +139,7 @@ header {
 }
 @media (max-width: 500px) {
   .mid {
-    width: 100%;
+    width: 80%;
   }
 }
 .aboutpics {
@@ -150,7 +151,7 @@ header {
 @media (max-width: 500px) {
   .aboutpics {
     flex-direction: column;
-    width: 100%;
+    width: 80%;
   }
 }
 @media (max-width: 800px) {
