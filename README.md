@@ -1,1 +1,3 @@
 # Marketing
+
+The Marketing page was created using HTML, CSS and Less. The concept of the page follows the pitch for KidsFly starting from the first picture to the last on the home page. All the imagesb used to create this site where from unslash and the logo icon was dwnloaded from google. The about page shows all the members of the team that collaborated to build the KidsFly app. The link to the live pages is https://vibrant-einstein-aff70d.netlify.com/ 
